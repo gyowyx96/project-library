@@ -1,0 +1,95 @@
+*
+{
+    background-color: aqua;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: 65px;
+}
+
+#currentBook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-wrap: nowrap;
+    gap: 25px;
+    align-self: normal;
+    height: 350px;
+}
+.book{
+    width: 150px;
+    height: 200px;
+    border: 2px solid red;
+
+}
+.book>h1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+form {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    color: #333;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 3px;
+}
+input[type="text"], input[type="checkbox"], input[type="number"], label {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+button {
+    background-color: #007bff; /* Blu */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.formButton{
+  margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Blu più scuro al passaggio del mouse */
+}
+
+p{
+    text-align: center;
+}
+.removeButton, .status {
+    margin-top: 10px; /* Aggiusta il margine superiore */
+    background-color: rgb(40, 201, 40);
+    display: flex;
+    gap: 20px; /* Spazio tra i bottoni */
+    align-items: center; /* Allinea verticalmente i contenuti dei bottoni */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Aggiusta il margine inferiore del bottone status */
+.status {
+    margin-bottom: 10px;
+}
+
+
