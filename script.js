@@ -150,7 +150,6 @@ class Library{
 
 class Book{
     constructor(name, author, pages, read){
-        this.super;
         this.name = name;
         this.author = author;
         this.pages = pages;
